@@ -45,5 +45,28 @@ body, input, textarea {
 }
 
 body {
-    
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
+h1, h2, h3, h4 {
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--weight-700);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button, input, textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
