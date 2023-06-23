@@ -1,0 +1,8 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&family=Raleway&display=swap");
+
+/* CSS VARIABLES */
+:root{
+    --first-color: hsl(271, 76%, 53%);
+    
+}
