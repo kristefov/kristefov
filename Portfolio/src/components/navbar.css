@@ -1,0 +1,33 @@
+/* This CSS code is styling a navigation menu. */
+.nav__menu {
+    position: fixed;
+    inset-block: 0;
+    left: 0;
+    background-color: var(--container-color);
+    width: 100%;
+    padding: 60px 30px;
+}
+/* This CSS code is styling the links within the navigation menu. */
+.nav__link {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    border-bottom: 1px solid var(--border-color);
+    padding-block: 14px;
+}
+.nav__icon,
+.nav__name {
+    color: var(--title-color);
+    font-size: 24px;
+}
+
+.nav__name {
+    font-weight: var(--weight-500);
+}
+.active-nav .nav__icon,
+.active-nav .nav__name {
+    color: var(--first-color);
+}
+
+
+ 
