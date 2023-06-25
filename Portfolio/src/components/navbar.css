@@ -2,10 +2,14 @@
 .nav__menu {
     position: fixed;
     inset-block: 0;
-    left: 0;
+    left: -100%;
     background-color: var(--container-color);
     width: 100%;
     padding: 60px 30px;
+    transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.show-menu {
+    left: 0;
 }
 /* This CSS code is styling the links within the navigation menu. */
 .nav__link {
@@ -15,18 +19,55 @@
     border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
 }
+/* This CSS code is styling both the icon and the name of the links within the navigation menu. It sets
+the color of the text to the value of the `--title-color` variable and the font size to 24 pixels.
+The `nav__icon` and `nav__name` classes are used to target the icon and the name respectively. */
 .nav__icon,
 .nav__name {
     color: var(--title-color);
     font-size: 24px;
 }
 
+/* This CSS code is setting the font weight of the text within elements with the class `nav__name` to
+the value of the `--weight-500` variable. This is likely being used to make the text bold or to give
+it a heavier appearance. The value of the `--weight-500` variable may be defined elsewhere in the
+CSS or in a separate file. */
 .nav__name {
     font-weight: var(--weight-500);
+/* This CSS code is targeting the icon and name elements within the navigation menu that have the class
+"active-nav" and setting their color to the value of the "--first-color" variable. This is likely
+being used to highlight the currently active link in the navigation menu. */
 }
 .active-nav .nav__icon,
 .active-nav .nav__name {
     color: var(--first-color);
+}
+.nav__toggle {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--container-color);
+    padding: 12px 10px;
+}
+.nav__toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
+}
+.animate-toggle span:first-child {
+    transform: rotate(45deg) translate(6px, 4px);
+}
+.animate-toggle span:nth-child(2) {
+   display: none; 
+}
+.animate-toggle span:last-child {
+    transform:  rotate(-45deg) translate(1px, 1px);
 }
 
 
