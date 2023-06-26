@@ -26,6 +26,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <div className="color__block"></div>
     </section>
   );
 };
