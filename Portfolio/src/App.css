@@ -88,7 +88,10 @@ img {
     font-weight: var(--weight-800);
     text-align: center;
     margin-bottom: 70px;
+}
 
+.section__title span {
+    color: var(--first-color);
 }
 
 .button {
