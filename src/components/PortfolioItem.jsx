@@ -20,13 +20,14 @@ const PortfolioItem = ({ img, title, details, link }) => {
             <h3 className="modal__title">{title}</h3>
             
             <ul className="modal__list grid">
-              {details.map(({ icon, title, desc }, index) => {
+              {details.map(({ icon, title, desc, link, repo }, index) => {
                 return (
                   <li className="modal__item" key={index}>
                     <span className="item_icon">{icon}</span>
                     <div>
                       <span className="item__title">{title}</span>
                       <span className="item_details">{desc}</span>
+                      <a href={link} className="item_details">{repo}</a>
                     </div>
                   </li>
                 );

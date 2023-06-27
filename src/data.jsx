@@ -158,45 +158,44 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title: 'Web Developer <span> Carrier Change </span>',
+    desc: 'Open for Work',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
+    year: '2016 - 2020',
+    title: 'Manager <span> JS Marketing</span>',
+    desc: 'Operations Management · Coaching · Management · Project Management · Team Management'},
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2011 - 2016',
+    title: 'Electro Technician <span> HI-Tech Corporation</span>',
+    desc: 'Multilayer PCB Production - Expertise in CNC Maintenance and Repair'
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2023',
+    title: 'Certificate <span> Birmingham University </span>',
+    desc: 'Full Stack Web Developer',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2023',
+    title: 'Certificate  <span> Mimo </span>',
+    desc: 'Web Developer Certificate',
   },
 
   {
@@ -204,8 +203,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    title: 'Bachelor Degree <span>State School SS. Cyril and Methodius </span>',
+    desc: 'RQF Level 3 /SCQF Level 6-7 / CQFW Level 3 / GCSE / BTEC Level3, Electro Technician for Computer Technics and Automation',
   },
 ];
 
@@ -236,7 +235,7 @@ export const skills = [
 
   {
     id: 5,
-    title: 'Mongo',
+    title: 'MongoDB',
     percentage: '70',
   },
 
@@ -269,7 +268,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'App',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
@@ -279,12 +278,13 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'JS',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://abstynent.github.io/project1-meal-plan-app/',
+        link: 'https://github.com/Abstynent/project1-meal-plan-app',
+        repo: 'Repository'
       },
     ],
   },
@@ -308,12 +308,13 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'JS',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://mylittlewebshop.herokuapp.com/login',
+        link: 'https://github.com/kristiyantefov/MyLittleWebShop',
+        repo: 'Repository'
       },
     ],
   },
@@ -321,28 +322,29 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'WeatherApp',
     link: 'https://kristiyantefov.github.io/WeatherApp/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        link: 'https://github.com/kristiyantefov/WeatherApp',
+        repo: 'Repository'
       },
     ],
   },
@@ -350,53 +352,58 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'Techblogium',
+    link: 'https://techblogium.herokuapp.com/homepage',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'JS,CSS,HTML,SQL',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        link: 'https://github.com/kristiyantefov/Techblogium',
+        repo: 'Repository'
       },
     ],
   },
-
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'First Portfolio',
+    link: 'https://kristiyantefov.github.io/Kris/',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
         desc: 'Website',
       },
       {
+        icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'JS,CSS,HTML',
       },
       {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        link: 'https://github.com/kristiyantefov/Kris',
+        repo: 'Repository'
       },
     ],
   },
@@ -404,196 +411,203 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'Horiseon',
+    link: 'https://kristiyantefov.github.io/Horiseon/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/Horiseon',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 7,
     img: Work7,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'Note-Taker',
+    link: 'https://fakenote.herokuapp.com/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/Note-Taker',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 8,
     img: Work8,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'Password-Generator',
+    link: 'https://github.com/kristiyantefov/Password-Generator',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/Password-Generator',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 9,
     img: Work9,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'TechQuiz',
+    link: 'https://kristiyantefov.github.io/TechQuiz/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Web Application',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/TechQuiz',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 10,
     img: Work10,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'WorkSchedule',
+    link: 'https://kristiyantefov.github.io/WorkSchedule/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Web Application',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,CSS,HTML',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/WorkSchedule',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 11,
     img: Work11,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'README-Generator',
+    link: 'https://github.com/kristiyantefov/README-Generator',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Program',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/README-Generator',
+        repo: 'Repository'
       },
     ],
   },
   {
     id: 12,
     img: Work12,
-    title: 'Photo Editing',
-    link: 'https://abstynent.github.io/project1-meal-plan-app/',
+    title: 'Employee-Tracker',
+    link: 'https://github.com/kristiyantefov/Employee-Tracker',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Program',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS,SQL,CMD',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        link: 'https://github.com/kristiyantefov/Employee-Tracker',
+        repo: 'Repository'
       },
     ],
   },

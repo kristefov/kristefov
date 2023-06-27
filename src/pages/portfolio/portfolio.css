@@ -106,8 +106,13 @@
     font-size: var(--small-font-size);
 }
 
-.item__details {
+.item__details{
     font-weight: var(--weight-600);
+    color: var(--title-color);
+}
+a {
+    text-decoration: none !important;
+    color: var(--title-color);
 }
 
 .modal__img {
