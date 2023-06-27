@@ -6,15 +6,19 @@
   align-items: flex-start;
 }
 
+
 .info__list {
   row-gap: 20px;
   margin-bottom: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .section__subtitle {
   font-size: var(--h3-font-size);
   font-weight: var(--weight-600);
   margin-bottom: 20px;
+  text-align: center;
 }
 .info__list .info__title,
 .info__list .info__description {

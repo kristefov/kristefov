@@ -123,7 +123,7 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Languages : ',
-    description: 'English, Macedonian, Bulgarian, Serbian, Croatian, Slovenian',
+    description: 'English, Macedonian, Serbian, Croatian,',
   },
 ];
 
@@ -263,27 +263,28 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Meal Plan',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'App',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://abstynent.github.io/project1-meal-plan-app/',
       },
     ],
   },
@@ -291,7 +292,8 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'MyLittleWebShop',
+    link: 'https://mylittlewebshop.herokuapp.com/login',
     details: [
       {
         icon: <FiFileText />,
@@ -301,17 +303,17 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'University of Birmingham',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://mylittlewebshop.herokuapp.com/login',
       },
     ],
   },
@@ -320,6 +322,7 @@ export const portfolio = [
     id: 3,
     img: Work3,
     title: 'Video Editing',
+    link: 'https://kristiyantefov.github.io/WeatherApp/',
     details: [
       {
         icon: <FiFileText />,
@@ -348,6 +351,7 @@ export const portfolio = [
     id: 4,
     img: Work4,
     title: 'Video Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -376,6 +380,7 @@ export const portfolio = [
     id: 5,
     img: Work5,
     title: 'Landing Page',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         title: 'Project : ',
@@ -400,6 +405,7 @@ export const portfolio = [
     id: 6,
     img: Work6,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -427,6 +433,7 @@ export const portfolio = [
     id: 7,
     img: Work7,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -454,6 +461,7 @@ export const portfolio = [
     id: 8,
     img: Work8,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -481,6 +489,7 @@ export const portfolio = [
     id: 9,
     img: Work9,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -508,6 +517,7 @@ export const portfolio = [
     id: 10,
     img: Work10,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -535,6 +545,7 @@ export const portfolio = [
     id: 11,
     img: Work11,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,
@@ -562,6 +573,7 @@ export const portfolio = [
     id: 12,
     img: Work12,
     title: 'Photo Editing',
+    link: 'https://abstynent.github.io/project1-meal-plan-app/',
     details: [
       {
         icon: <FiFileText />,

@@ -172,5 +172,124 @@
     .home__title span {
         display: block;
     }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .portfolio__modal-content {
+        padding: 25px 20px;
+    }
+
+    .modal__close {
+        top: -9%;
+        right: 0;
+    }
    
 }
+
+@media screen and (max-width: 576px) {
+    .nav__toggle {
+        top: 20px;
+        right: 15px;
+    }
+
+    .nav__link {
+        column-gap: 20px;
+
+    }
+
+    .nav__icon,
+    .nav__name {
+        font-size: var(--h3-font-size);
+    }
+
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .portfolio__container {
+        grid-template-columns: 1fr;
+    }
+
+    .modal__list {
+        grid-template-columns: 1fr;
+    }
+    .modal__img {
+        height: 300px;
+    }
+
+    .form__input-group {
+        grid-template-columns: 1fr;
+    }
+
+    .theme__img {
+        width: 25px;
+    }
+
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 40px;
+        height: 40px;
+    }
+
+    .style__switcher-toggler {
+        top: 15%;
+    }
+
+    .theme__toggler {
+        bottom: 15%;
+    }
+    .style__switcher-close {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+
+    .home__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: auto;
+    }
+
+    .home__content {
+        margin-block: auto;
+        text-align: center;
+    }
+
+    .home__title {
+        font-size: var(--h1-font-size);
+    }
+
+    .home__description {
+        text-align: justify;
+    }
+
+    .info__title {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .stats__box {
+        padding: 15px 15px 25px 20px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .home__title {
+        display: inline;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+        
+    }
+    .stats__box {
+        margin-right: 15px;
+    }
+}
+
+
