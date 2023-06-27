@@ -7,6 +7,7 @@
     width: 100%;
     padding: 60px 30px;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 100;
 }
 .show-menu {
     left: 0;
@@ -18,6 +19,10 @@
     column-gap: 24px;
     border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
+}
+
+.dark-theme .nav__link {
+    border-color: hsl(0, 0%, 20%);
 }
 /* This CSS code is styling both the icon and the name of the links within the navigation menu. It sets
 the color of the text to the value of the `--title-color` variable and the font size to 24 pixels.
@@ -51,6 +56,7 @@ being used to highlight the currently active link in the navigation menu. */
     border-radius: 5px;
     background-color: var(--container-color);
     padding: 12px 10px;
+    z-index: 100;
 }
 .nav__toggle span {
     display: block;
@@ -83,6 +89,7 @@ being used to highlight the currently active link in the navigation menu. */
        right: 30px;
        display: flex;
        align-items: center;
+       z-index: 100;
     }
     .nav__item {
         margin-block: 20px;
