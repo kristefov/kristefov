@@ -6,15 +6,23 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  
+  
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work3 from './assets/project-3.jpg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
+import Work7 from './assets/project-7.jpg';
+import Work8 from './assets/project-8.jpg';
+import Work9 from './assets/project-9.jpg';
+import Work10 from './assets/project-10.jpg';
+import Work11 from './assets/project-11.jpg';
+import Work12 from './assets/project-12.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -391,6 +399,168 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 10,
+    img: Work10,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 11,
+    img: Work11,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+  {
+    id: 12,
+    img: Work12,
     title: 'Photo Editing',
     details: [
       {

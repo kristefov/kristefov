@@ -4,16 +4,20 @@
 
 .portfolio__item {
     position: relative;
-    border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 30px
 }
 
 .portfolio__img {
     height: 250px;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     vertical-align: middle;
+    padding: 15px;
+    background-color: var(--container-color);
+    border-radius: 30px;
+    
 }
 
 .portfolio__hover {
