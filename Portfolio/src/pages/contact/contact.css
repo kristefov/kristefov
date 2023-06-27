@@ -55,3 +55,42 @@
     transition: all 0.3s ease;
 }
 
+.contact__social-link:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.form__input-group {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+}
+
+.form__input-div {
+    margin-bottom: 30px;
+}
+
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.form__control:focus {
+    border-color: var(--first-color);
+}
+
+.textarea {
+    resize: none;
+    height: 160px;
+}
+
+.contact__button-icon {
+    font-size: var(--h3-font-size);
+    line-height: 64px;
+}
