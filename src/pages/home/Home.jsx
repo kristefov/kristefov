@@ -16,7 +16,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Kristiyan Tefov.</span> Full Stack Web Developer
+            <span>Hey, I'm Kristiyan Tefov.</span> Full Stack Web Developer
           </h1>
           <p className="home__description">
             I am a versatile full stack web developer skilled in both front-end

@@ -72,7 +72,7 @@ https://
 #
 ## Authors
 
-- [Kristiyan](https://github.com/kristiyantefov)
+- [GitHub - Kristiyan Tefov](https://github.com/kristiyantefov)
 
 
 #
