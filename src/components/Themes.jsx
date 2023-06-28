@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { themes } from "../data";
 import ThemeItem from "./ThemeItem";
@@ -5,6 +6,11 @@ import { FaCog } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./themes.css";
 
+/**
+ * The function `getStorageColor` returns the color value stored in the localStorage, or a default
+ * color if it is not present.
+ * @returns The function `getStorageColor` returns the value of the `color` variable.
+ */
 const getStorageColor = () => {
   let color = 'hsl(252, 35%, 51%)';
   if (localStorage.getItem('color')) {
@@ -14,6 +20,11 @@ const getStorageColor = () => {
   return color
 }
 
+/**
+ * The function `getStorageTheme` retrieves the theme stored in the local storage, defaulting to
+ * 'light-theme' if no theme is found.
+ * @returns the value of the 'theme' variable.
+ */
 const getStorageTheme = () => {
     let theme = 'light-theme';
     if (localStorage.getItem('theme')) {
@@ -23,6 +34,8 @@ const getStorageTheme = () => {
     return theme
   }
 
+/* The `Themes` component is a functional component in React. It uses the `useState` hook to define
+three state variables: `showSwitcher`, `color`, and `theme`. */
 const Themes = () => {
     const [showSwitcher, setShowSwitcher] = useState(false);
     const [color, setColor] = useState(getStorageColor());
@@ -48,6 +61,8 @@ const Themes = () => {
         
      }, [theme])
 
+ /* The `return` statement in the code is returning JSX (JavaScript XML) code, which represents the
+ structure and content of the component's rendered output. */
   return (
     <div>
       <div className={`${showSwitcher ? 'show-switcher' : ''} style__switcher`}>

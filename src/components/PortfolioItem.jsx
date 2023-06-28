@@ -3,11 +3,15 @@
 import React, { useState } from "react";
 import Close from "../assets/close.svg";
 
+/* The code defines a functional component called `PortfolioItem` in JavaScript React. It takes in four
+props: `img`, `title`, `details`, and `link`. */
 const PortfolioItem = ({ img, title, details, link }) => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
   };
+/* The `return` statement in the `PortfolioItem` component is responsible for rendering the JSX
+(JavaScript XML) code that represents the component's UI. */
   return (
     <div className="portfolio__item">
       <img src={img} alt="" className="portfolio__img" />

@@ -1,5 +1,6 @@
 .contact__container {
     grid-template-columns: 4fr 8fr;
+    margin-bottom: 30px;
 }
 
 .contact__title {
@@ -38,28 +39,6 @@
     font-size: var(--small-font-size);
     font-weight: var(--weight-500);
 }
-
-.contact__socials {
-    display: flex;
-    column-gap: 16px;
-}
-
-.contact__social-link {
-    background-color: var(--container-color);
-    color: var(--title-color);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 44px;
-    transition: all 0.3s ease;
-}
-
-.contact__social-link:hover {
-    background-color: var(--first-color);
-    color: var(--text-white);
-}
-
 .form__input-group {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -93,4 +72,30 @@
 .contact__button-icon {
     font-size: var(--h3-font-size);
     line-height: 64px;
+}
+.errorHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+   
+    
+}
+
+.errorMessage {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: rgb(225, 57, 57);
+    width: 50%;
+   
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--large-font-size);
+    transition: all 0.3s ease;
+    display: none;  
+    text-align: center; 
+    margin-top: 20px;
+}
+.button {
+    margin-top: 20px;
 }

@@ -1,9 +1,18 @@
 /* eslint-disable no-unused-vars */
+/* The code is importing necessary modules and components for the Navbar component. */
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { links } from "../data";
 import "./navbar.css";
 
+/**
+ * The above function is a React component that renders a navigation bar with a toggle button to show
+ * or hide a menu.
+ * @returns The Navbar component is returning a navigation bar with a menu toggle button and a list of
+ * navigation links. The menu toggle button is displayed as three horizontal lines, and when clicked,
+ * it toggles the visibility of the navigation menu. The navigation menu is a list of links, where each
+ * link has a name, an icon, and a path. When a link is clicked, the menu is hidden and the
+ */
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (

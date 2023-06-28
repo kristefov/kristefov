@@ -99,6 +99,7 @@ img {
 }
 
 /* REUSABLE CSS */
+
 .container {
   max-width: 1140px;
   margin-inline: auto;
@@ -164,4 +165,35 @@ img {
   line-height: 60px;
 }
 
+.contact__socials {
+  display: flex;
+  column-gap: 16px;
+  
+}
+
+.contact__social-link {
+  background-color: var(--container-color);
+  color: var(--title-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  transition: all 0.3s ease;
+  
+}
+
+.contact__social-link:hover {
+  background-color: var(--first-color);
+  color: var(--text-white);
+ 
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 4%;
+  margin: 20px;
+  
+}
 

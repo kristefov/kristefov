@@ -1,8 +1,15 @@
+/* eslint-disable no-unused-vars */
+/* The code is importing necessary dependencies and components for the Skils component. */
 import React from "react";
 import { skills } from "../data";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
+/**
+ * The Skils component renders a list of skills with their corresponding progress bars and titles.
+ * @returns The Skils component is returning a list of progress bars with corresponding titles. Each
+ * progress bar displays a percentage value and has a circular shape.
+ */
 const Skils = () => {
   return (
     <>

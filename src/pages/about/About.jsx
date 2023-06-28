@@ -1,4 +1,6 @@
 /* eslint-disable no-unused-vars */
+/* The code you provided is importing various components, icons, and data that are needed in the
+`About` component. */
 import React from "react";
 import Info from "../../components/Info";
 import Stats from "../../components/Stats";
@@ -9,6 +11,9 @@ import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
 import "./about.css";
 
+/* The code you provided is a functional component in JavaScript React. It defines a component called
+"About" that renders a section containing information about a person's resume, skills, and
+experience/education. */
 const About = () => {
   return (
     <main className="section container">

@@ -1,9 +1,14 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
+/* The code is importing necessary dependencies and resources for the `Home` component. */
 import React from "react";
 import Profile from "../../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import "./home.css";
 
+/* The code defines a functional component called `Home` in JavaScript React. This component returns
+JSX code that represents the structure and content of a home section on a web page. */
 const Home = () => {
   return (
     <section className="home section grid">
@@ -18,7 +23,7 @@ const Home = () => {
             and back-end development, capable of creating and maintaining robust
             web applications from start to finish.
           </p>
-          <Link to="/about" className="button">
+          <Link to="/resume" className="button">
             More About Me{" "}
             <span className="button__icon">
               <FaArrowRight />

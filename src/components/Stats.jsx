@@ -1,7 +1,17 @@
+/* eslint-disable no-unused-vars */
+/* The code is importing the necessary dependencies for the `Stats` component. */
 import React from 'react'
 import { stats } from '../data'
 import parse from 'html-react-parser'
 
+/**
+ * The Stats component in JavaScript React renders a list of stats with their corresponding numbers and
+ * titles.
+ * @returns The `Stats` component is returning a fragment (`<>...</>`) containing multiple `div`
+ * elements. Each `div` element represents a stat and contains an `h3` element displaying the stat
+ * number (`no`) and a `p` element displaying the stat title (`title`). The `stats` array is being
+ * mapped over to generate these `div` elements.
+ */
 const Stats = () => {
   return (
     <>
