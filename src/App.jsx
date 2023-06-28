@@ -6,9 +6,9 @@ import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Themes from "./components/themes/Themes";
-import About from "./pages/about/About";
+import Resume from "./pages/resume/Resume";
 import Contact from "./pages/contact/Contact";
-import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import Portfolio from "./pages/portfolio/Portfolio";
 
 
@@ -19,8 +19,8 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="resume" element={<About />} />
+        <Route path="about" element={<About />} />
+        <Route path="resume" element={<Resume />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
