@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { AiOutlineFundProjectionScreen
-  } from "react-icons/Ai";
+  } from "react-icons/ai";
   
 
 /* The code is defining a functional component called `Footer`. This component returns JSX code that
