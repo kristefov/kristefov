@@ -49,8 +49,6 @@
     width: 100%;
     background-color: var(--first-color);
     top: -50%;
-    left: -83%;
-    transform: rotate(-15deg);
-
-
+    left: -70%;
+    transform: rotate(-20deg);
 }

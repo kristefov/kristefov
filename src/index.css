@@ -245,7 +245,12 @@
     }
 }
 
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 30px;
+        height: 30px;
+    } 
 
     .home__img {
         width: 200px;
@@ -290,6 +295,12 @@
     .stats__box {
         margin-right: 15px;
     }
+
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 30px;
+        height: 30px;
+    } 
 }
 
 

@@ -38,16 +38,16 @@ import Theme10 from './assets/yellow.png';
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'About',
     icon: <FaHome className='nav__icon' />,
     path: '/',
   },
 
   {
     id: 2,
-    name: 'About',
+    name: 'Resume',
     icon: <FaUser className='nav__icon' />,
-    path: '/about',
+    path: '/resume',
   },
 
   {
@@ -282,7 +282,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/Abstynent/project1-meal-plan-app',
         repo: 'Repository'
       },
@@ -312,7 +312,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/MyLittleWebShop',
         repo: 'Repository'
       },
@@ -342,7 +342,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/WeatherApp',
         repo: 'Repository'
       },
@@ -372,7 +372,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Techblogium',
         repo: 'Repository'
       },
@@ -401,7 +401,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Kris',
         repo: 'Repository'
       },
@@ -431,7 +431,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Horiseon',
         repo: 'Repository'
       },
@@ -460,7 +460,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Note-Taker',
         repo: 'Repository'
       },
@@ -489,7 +489,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Password-Generator',
         repo: 'Repository'
       },
@@ -518,7 +518,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/TechQuiz',
         repo: 'Repository'
       },
@@ -547,7 +547,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/WorkSchedule',
         repo: 'Repository'
       },
@@ -576,7 +576,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/README-Generator',
         repo: 'Repository'
       },
@@ -605,7 +605,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link To : ',
         link: 'https://github.com/kristiyantefov/Employee-Tracker',
         repo: 'Repository'
       },

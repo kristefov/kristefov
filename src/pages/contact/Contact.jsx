@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import {
   FaEnvelopeOpen,
@@ -18,7 +19,7 @@ const Contact = () => {
       </h2>
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy !</h3>
+          <h3 className="contact__title">Contact Me!</h3>
 
           <p className="contact__description">
             Feel free to get in touch with me. I am always open to discussing
@@ -30,7 +31,7 @@ const Contact = () => {
               <FaEnvelopeOpen className="info__icon" />
               <div>
                 <span className="info__title">Mail me</span>
-                <h4 className="info__desc">kristiyan.tefov@icloud.com</h4>
+                <a href="mailto:kristiyan.tefov@icloud.com"><h4 className="info__desc" >kristiyan.tefov@icloud.com</h4></a>
               </div>
             </div>
 
@@ -38,7 +39,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className="info__icon" />
               <div>
                 <span className="info__title">Call me</span>
-                <h4 className="info__desc">+447306786666</h4>
+                <a href="tel:07306786666"><h4 className="info__desc">+447306786666</h4></a>
               </div>
             </div>
           </div>
