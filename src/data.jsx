@@ -92,7 +92,7 @@ export const personalInfo = [
 
   {
     id: 5,
-    title: 'Freelance : ',
+    title: 'Web Developer : ',
     description: 'Available',
   },
 
@@ -117,7 +117,7 @@ export const personalInfo = [
   {
     id: 9,
     title: 'Skype : ',
-    description: 'Kristiyan Tefov',
+    description: 'kristiyan.tefov',
   },
 
   {

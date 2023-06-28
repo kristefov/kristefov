@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* The code is importing necessary dependencies and components for the Skils component. */
 import React from "react";
-import { skills } from "../data";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { skills } from "../../data";
 
 /**
  * The Skils component renders a list of skills with their corresponding progress bars and titles.

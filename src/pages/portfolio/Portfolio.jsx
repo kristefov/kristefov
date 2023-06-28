@@ -2,7 +2,7 @@
 /* The code is importing necessary dependencies and components for the `Portfolio` component. */
 import React from 'react'
 import { portfolio } from '../../data'
-import PortfolioItem from '../../components/PortfolioItem'
+import PortfolioItem from '../../components/portfolioitem/PortfolioItem'
 import './portfolio.css'
 
 /* The code defines a functional component called `Portfolio`. This component returns JSX code that

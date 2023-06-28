@@ -136,7 +136,7 @@ img {
   position: relative;
   overflow: hidden;
   transition: all 0.25s ease-in-out;
-  margin-top: 20px;
+ 
 }
 .button:hover {
   color: var(--text-white);
@@ -169,7 +169,7 @@ img {
 .contact__socials {
   display: flex;
   column-gap: 16px;
-  
+  z-index: 3001;
 }
 
 .contact__social-link {
@@ -181,20 +181,49 @@ img {
   text-align: center;
   line-height: 44px;
   transition: all 0.3s ease;
+
+
+  
   
 }
 
 .contact__social-link:hover {
   background-color: var(--first-color);
   color: var(--text-white);
+  
+  
  
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 4%;
+  position:fixed;
+  background-color: var(--first-color);
+  width: 100%;
+  bottom: -21px;
+  right: -800px;
   margin: 20px;
-  
+  padding: 3px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  position:fixed;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--first-color);
+  width: 99%;
+  left: -800px;
+  top: -21px;
+  margin: 20px;
+  padding: 3px;
+  margin: 20px;
+  z-index: 3001;
+  border-radius: 20px;
+}
+.header p {
+  margin: 5px;
+  color: var(--text-white);
 }
 

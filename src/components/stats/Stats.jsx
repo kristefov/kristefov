@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* The code is importing the necessary dependencies for the `Stats` component. */
-import React from 'react'
-import { stats } from '../data'
-import parse from 'html-react-parser'
+import parse from "html-react-parser";
+import React from "react";
+import { stats } from "../../data";
 
 /**
  * The Stats component in JavaScript React renders a list of stats with their corresponding numbers and
@@ -15,16 +15,16 @@ import parse from 'html-react-parser'
 const Stats = () => {
   return (
     <>
-    {stats.map(({no, title}, index) => {
+      {stats.map(({ no, title }, index) => {
         return (
-            <div className="stats__box" key={index}>
-                <h3 className="stats__no">{no}</h3>
-                <p className="stats__title">{parse(title)}</p>
-            </div>
-        )
-    }) }
+          <div className="stats__box" key={index}>
+            <h3 className="stats__no">{no}</h3>
+            <p className="stats__title">{parse(title)}</p>
+          </div>
+        );
+      })}
     </>
-  )
-}
+  );
+};
 
-export default Stats
+export default Stats;

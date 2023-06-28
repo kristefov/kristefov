@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import Close from "../assets/close.svg";
+import Close from "../../assets/close.svg";
 
 /* The code defines a functional component called `PortfolioItem` in JavaScript React. It takes in four
 props: `img`, `title`, `details`, and `link`. */

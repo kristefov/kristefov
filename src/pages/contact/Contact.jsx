@@ -47,9 +47,17 @@ const Contact = () => {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
         setErrorMessage("Please enter a valid email address");
+        setTimeout(() => {
+          console.log(setTimeout)
+          setErrorMessage("")
+        }, 5000);
       } else {
         if (!e.target.value.length) {
           setErrorMessage(`${e.target.name} is required `);
+          setTimeout(() => {
+            console.log(setTimeout)
+            setErrorMessage("")
+          }, 5000);
         } else {
           setErrorMessage("");
         }
@@ -72,6 +80,10 @@ const Contact = () => {
     ) {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required`);
+        setTimeout(() => {
+          console.log(setTimeout)
+          setErrorMessage("")
+        }, 5000);
       } else {
         setErrorMessage("");
       }
@@ -80,8 +92,11 @@ const Contact = () => {
     }
   }
 
+/**
+ * The handleSubmit function sets an error message and then clears it after a delay of 5 seconds.
+ */
   const handleSubmit = () => {
-    setErrorMessage("Sending message is still in development mode for contact please use the email provided instead");
+    setErrorMessage("In development mode for contact please use the email provided instead");
    setTimeout(() => {
     console.log(setTimeout)
     setErrorMessage("")

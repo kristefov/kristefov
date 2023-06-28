@@ -2,7 +2,7 @@
 /* The code is importing necessary modules and components for the Navbar component. */
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { links } from "../data";
+import { links } from "../../data";
 import "./navbar.css";
 
 /**

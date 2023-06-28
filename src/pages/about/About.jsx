@@ -2,13 +2,13 @@
 /* The code you provided is importing various components, icons, and data that are needed in the
 `About` component. */
 import React from "react";
-import Info from "../../components/Info";
-import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/CV Kristiyan Tefov.pdf";
-import Skills from "../../components/Skills";
+import Info from "../../components/info/Info";
+import ResumeItem from "../../components/resumeitem/ResumeItem";
+import Skills from "../../components/skils/Skills";
+import Stats from "../../components/stats/Stats";
 import { resume } from "../../data";
-import ResumeItem from "../../components/ResumeItem";
 import "./about.css";
 
 /* The code you provided is a functional component in JavaScript React. It defines a component called

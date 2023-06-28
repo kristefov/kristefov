@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* The code is importing the React library and the `personalInfo` variable from a file located in the
 '../data' directory. */
-import React from 'react'
-import { personalInfo } from '../data'
+import React from "react";
+import { personalInfo } from "../../data";
 
 /**
  * The Info component renders a list of personal information items with titles and descriptions.
@@ -12,17 +12,17 @@ import { personalInfo } from '../data'
  */
 const Info = () => {
   return (
-   <>
-   {personalInfo.map(({title, description }, index) => {
-    return(
-        <li className="info__item" key={index}>
+    <>
+      {personalInfo.map(({ title, description }, index) => {
+        return (
+          <li className="info__item" key={index}>
             <span className="info__title">{title}</span>
             <span className="info__description">{description}</span>
-        </li>
-    )
-   })}
-   </>
-  )
-}
+          </li>
+        );
+      })}
+    </>
+  );
+};
 
-export default Info
+export default Info;
