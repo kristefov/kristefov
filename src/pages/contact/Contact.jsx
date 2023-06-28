@@ -20,6 +20,10 @@ import { validateEmail } from "../../utils/helpers";
 /* The code defines a functional component called `Contact` in JavaScript React. This component
 represents a contact section on a webpage. */
 const Contact = () => {
+ /* The code is using the `useState` hook from React to create a state variable called `formState` and
+ a function called `setFromState` to update the state. The initial value of `formState` is an object
+ with properties `name`, `email`, `message`, and `subject`, all initialized with empty strings. This
+ state is used to store the values entered by the user in the contact form. */
   const [formState, setFromState] = useState({
     name: "",
     email: "",
@@ -27,9 +31,65 @@ const Contact = () => {
     subject: "",
   });
 
-  const [errorMessage, setErrorMesage] = useState("");
+  /* The code is using the `useState` hook from React to create a state variable called `errorMessage`
+  and a function called `setErrorMessage` to update the state. The initial value of `errorMessage`
+  is an empty string. This state is used to store and display any error messages related to the
+  contact form. */
+  const [errorMessage, setErrorMessage] = useState("");
+  const { name, email, message, subject} = formState;
 
-  const handleChange = () => {};
+ /**
+  * The handleChange function is used to handle changes in an input field, validate the email address,
+  * and update the form state accordingly.
+  */
+  const handleChange = (e) => {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage("Please enter a valid email address");
+      } else {
+        if (!e.target.value.length) {
+          setErrorMessage(`${e.target.name} is required `);
+        } else {
+          setErrorMessage("");
+        }
+      }
+    }
+    if (!errorMessage) {
+      setFromState({ ...formState, [e.target.name]: e.target.value });
+    }
+  };
+
+ /**
+  * The function `handleBlank` checks if certain input fields are blank and sets an error message if
+  * they are, otherwise it updates the form state.
+  */
+  const handleBlank = (e) => {
+    if (
+      e.target.name === "Name" ||
+      e.target.name === "Subject" ||
+      e.target.name === "Message"
+    ) {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required`);
+      } else {
+        setErrorMessage("");
+      }
+    } if(!errorMessage) {
+      setFromState({...formState, [e.target.name]: e.target.value});
+    }
+  }
+
+  const handleSubmit = () => {
+    setErrorMessage("Sending message is still in development mode for contact please use the email provided instead");
+   setTimeout(() => {
+    console.log(setTimeout)
+    setErrorMessage("")
+  }, 5000);
+  }
+
+
+  
 
   return (
     <section className="contact section">
@@ -91,7 +151,9 @@ const Contact = () => {
             <div className="form__input-div">
               <input
                 type="text"
-                name="name"
+                name="Name"
+                defaultValue={name}
+                onBlur={handleBlank}
                 placeholder="Your Name"
                 className="form__control"
               />
@@ -103,6 +165,8 @@ const Contact = () => {
                 name="email"
                 placeholder="Your Email"
                 className="form__control"
+                defaultValue={email}
+                onBlur={handleChange}
               />
             </div>
 
@@ -111,7 +175,9 @@ const Contact = () => {
                 type="text"
                 placeholder="Your Subject"
                 className="form__control"
-                name="subject"
+                name="Subject"
+                defaultValue={subject}
+                onBlur={handleBlank}
               />
             </div>
           </div>
@@ -119,18 +185,22 @@ const Contact = () => {
           <div className="form__input-div">
             <textarea
               placeholder="Your Message"
-              name="message"
+              name="Message"
               className="form__control textarea"
+              defaultValue={message}
+                onBlur={handleBlank}
             ></textarea>
           </div>
-          <div className="errorHolder">
-            <button type="submit" className="button">
+          
+            <span  className="button" onClick={handleSubmit}>
               Send Message
               <span className="button__icon contact__button-icon">
                 <FiSend />
               </span>
-            </button>
-            <p className="errorMessage">Error</p>
+            </span>
+            <div className="errorHolder">
+            { errorMessage && (<p className="errorMessage">{errorMessage}</p>)}
+           
           </div>
         </form>
       </div>

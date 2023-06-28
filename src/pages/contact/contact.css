@@ -87,15 +87,10 @@
     background-color: var(--container-color);
     color: rgb(225, 57, 57);
     width: 50%;
-   
     padding: 12px 24px;
     border-radius: 30px;
     font-size: var(--large-font-size);
     transition: all 0.3s ease;
-    display: none;  
     text-align: center; 
-    margin-top: 20px;
-}
-.button {
     margin-top: 20px;
 }

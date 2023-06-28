@@ -136,6 +136,7 @@ img {
   position: relative;
   overflow: hidden;
   transition: all 0.25s ease-in-out;
+  margin-top: 20px;
 }
 .button:hover {
   color: var(--text-white);
