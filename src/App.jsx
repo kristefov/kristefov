@@ -11,7 +11,6 @@ import Contact from "./pages/contact/Contact";
 import About from "./pages/about/About";
 import Portfolio from "./pages/portfolio/Portfolio";
 
-
 function App() {
   return (
     <BrowserRouter>
@@ -19,10 +18,10 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        <Route path="about" element={<About />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
+        <Route index element={<About />} />
+        <Route path="/kris-web-dev/resume" element={<Resume />} />
+        <Route path="/kris-web-dev/portfolio" element={<Portfolio />} />
+        <Route path="/kris-web-dev/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

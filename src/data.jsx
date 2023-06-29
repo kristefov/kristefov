@@ -40,7 +40,7 @@ export const links = [
     id: 1,
     name: 'About',
     icon: <FaHome className='nav__icon' />,
-    path: '/about',
+    path: '/',
   },
 
   {
@@ -63,6 +63,7 @@ export const links = [
     icon: <FaEnvelopeOpen className='nav__icon' />,
     path: '/contact',
   },
+  
 ];
 
 export const personalInfo = [
