@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        <Route index element={<About />} />
+        <Route path="/kris-web-dev/" element={<About />} />
         <Route path="/kris-web-dev/resume" element={<Resume />} />
         <Route path="/kris-web-dev/portfolio" element={<Portfolio />} />
         <Route path="/kris-web-dev/contact" element={<Contact />} />
