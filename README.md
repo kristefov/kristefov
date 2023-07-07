@@ -3,7 +3,6 @@
 # Personal Portfolio
 
 <img src="./src/assets/ezgif.com-crop.gif" width="100%">
-
 #
 ## Table of Contents
 
