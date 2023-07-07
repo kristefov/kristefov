@@ -2,8 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-import Header from "./components/header/Header"
-import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Themes from "./components/themes/Themes";
 import Resume from "./pages/resume/Resume";
@@ -14,16 +12,14 @@ import Portfolio from "./pages/portfolio/Portfolio";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
       <Navbar />
       <Themes />
       <Routes>
-        <Route path="/kris-web-dev/" element={<About />} />
-        <Route path="/kris-web-dev/resume" element={<Resume />} />
-        <Route path="/kris-web-dev/portfolio" element={<Portfolio />} />
-        <Route path="/kris-web-dev/contact" element={<Contact />} />
+        <Route path="/kristiyantefov/" element={<About />} />
+        <Route path="/kristiyantefov/resume" element={<Resume />} />
+        <Route path="/kristiyantefov/portfolio" element={<Portfolio />} />
+        <Route path="/kristiyantefov/contact" element={<Contact />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

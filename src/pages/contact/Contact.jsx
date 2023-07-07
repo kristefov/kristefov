@@ -8,10 +8,10 @@ import React, { useState } from "react";
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  FaFacebookF,
   FaTwitter,
   FaYoutube,
   FaLinkedin,
+  FaGithub
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
@@ -142,17 +142,15 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
-              <FaFacebookF />
+            <a href="https://github.com/kristiyantefov" className="contact__social-link">
+              <FaGithub />
             </a>
-            <a href="https://twitter.com" className="contact__social-link">
+            <a href="https://twitter.com/fakekrisko" className="contact__social-link">
               <FaTwitter />
             </a>
-
-            <a href="https://youtube.com" className="contact__social-link">
-              <FaYoutube />
+            <a href="https://www.youtube.com/CyberCubeTV" className="contact__social-link">
+              <FaYoutube/>
             </a>
-
             <a
               href="https://www.linkedin.com/in/kristiyantefov/"
               className="contact__social-link"

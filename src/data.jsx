@@ -40,28 +40,28 @@ export const links = [
     id: 1,
     name: 'About',
     icon: <FaHome className='nav__icon' />,
-    path: '/kris-web-dev/',
+    path: '/kristiyantefov/',
   },
 
   {
     id: 2,
     name: 'Resume',
     icon: <FaUser className='nav__icon' />,
-    path: '/kris-web-dev/resume',
+    path: '/kristiyantefov/resume',
   },
 
   {
     id: 3,
     name: 'Portfolio',
     icon: <FaFolderOpen className='nav__icon' />,
-    path: '/kris-web-dev/portfolio',
+    path: '/kristiyantefov/portfolio',
   },
 
   {
     id: 4,
     name: 'Contact',
     icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/kris-web-dev/contact',
+    path: '/kristiyantefov/contact',
   },
   
 ];
@@ -69,69 +69,69 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
+    title: 'First Name: ',
     description: 'Kristiyan',
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
+    title: 'Last Name: ',
     description: 'Tefov',
   },
 
   {
     id: 3,
-    title: 'Age : ',
+    title: 'Age: ',
     description: '33 Years',
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'United Kingdom',
+    title: 'Nationality: ',
+    description: 'British',
   },
 
   {
     id: 5,
-    title: 'Web Developer : ',
+    title: 'Web Developer: ',
     description: 'Available',
   },
 
   {
     id: 6,
-    title: 'Address : ',
+    title: 'Address: ',
     description: 'United Kingdom',
   },
 
   {
     id: 7,
-    title: 'Phone : ',
+    title: 'Phone: ',
     description: '+447306786666',
   },
 
   {
     id: 8,
-    title: 'Email : ',
+    title: 'Email: ',
     description: 'kristiyan.tefov@icloud.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
+    title: 'Skype: ',
     description: 'kristiyan.tefov',
   },
 
   {
     id: 10,
-    title: 'Languages : ',
-    description: 'English, Macedonian, Serbian, Croatian,',
+    title: 'Languages: ',
+    description: 'English, Macedonian, Bulgarian, Croatian,',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '0+',
+    no: '1+',
     title: 'Years of <br /> Experience',
   },
 
@@ -219,7 +219,7 @@ export const skills = [
   {
     id: 2,
     title: 'Javascript',
-    percentage: '79',
+    percentage: '81',
   },
 
   {
@@ -231,7 +231,7 @@ export const skills = [
   {
     id: 4,
     title: 'React',
-    percentage: '76',
+    percentage: '80',
   },
 
   {
