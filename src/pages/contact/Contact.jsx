@@ -11,8 +11,9 @@ import {
   FaTwitter,
   FaYoutube,
   FaLinkedin,
-  FaGithub
+  FaGithub,
 } from "react-icons/fa";
+import { SiLinktree } from "react-icons/si";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
 import { validateEmail } from "../../utils/helpers";
@@ -150,6 +151,9 @@ const Contact = () => {
             </a>
             <a href="https://www.youtube.com/CyberCubeTV" className="contact__social-link">
               <FaYoutube/>
+            </a>
+            <a href="https://linktr.ee/kristiyantefov" className="contact__social-link">
+              <SiLinktree/>
             </a>
             <a
               href="https://www.linkedin.com/in/kristiyantefov/"

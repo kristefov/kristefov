@@ -23,7 +23,7 @@ const Home = () => {
             and back-end development, capable of creating and maintaining robust
             web applications from start to finish.
           </p>
-          <Link to="/kris-web-dev/resume" className="button">
+          <Link to="/kristiyantefov/resume" className="button">
             More About Me{" "}
             <span className="button__icon">
               <FaArrowRight />
