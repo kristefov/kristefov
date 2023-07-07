@@ -60,13 +60,13 @@ For suggestions or contributions you can reach me at my email address or you can
 ## Link
 Link to repository:
 
-https://github.com/kristiyantefov/Portfolio
+https://github.com/kristiyantefov/kristiyantefov
 
 
 Link to website:
 
 
-https://kristiyantefov.github.io/kris-web-dev/
+https://kristiyantefov.github.io/kristiyantefov/
 #
 ## Authors
 
