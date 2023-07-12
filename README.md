@@ -1,79 +1,57 @@
-[![Hex.pm](https://img.shields.io/badge/license%20-mit-blue?style=for-the-badge&logo=appveyor)](https://choosealicense.com/licenses/mit)
-
-# Personal Portfolio
-
-<img src="./src/assets/ezgif.com-crop.gif" width="100%">
-#
-## Table of Contents
-
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Link](#link)
-* [Authors](#authors)
-* [License](#license)
-#
-## Description
-I have created this sleek and dynamic website using the power of React to showcase my skills, experiences, and accomplishments. With a focus on delivering a seamless user experience,my portfolio website is designed to impress and engage visitors from the moment they arrive.
-
-Key Features of My React-Powered Portfolio Website:
-
-Eye-Catching Design: My portfolio website combines clean and modern aesthetics with visually striking elements to create a captivating first impression. Through careful attention to typography, color schemes, and layout, I have crafted a visually appealing platform that reflects my personal brand.
-
-Responsive and Mobile-Friendly: Ensuring accessibility across devices, my portfolio website is fully responsive and optimized for a seamless experience on smartphones, tablets, and desktops. Visitors can easily explore my work and achievements, regardless of the device they are using.
-
-Interactive Experience: Using React's powerful component-based architecture, I have incorporated interactive elements to enhance engagement. From smooth transitions to dynamic content loading, visitors can navigate through my portfolio effortlessly and explore different sections with ease.
-
-Showcase of Skills and Projects: My portfolio website serves as a comprehensive repository of my skills, expertise, and past projects. I have curated a collection of my best work, highlighting my proficiency in various technologies, programming languages, and creative endeavors.
-
-Contact and Collaboration: Connecting with me has never been easier. My portfolio website features a dedicated contact section, allowing visitors to reach out and discuss potential collaboration opportunities, job offers, or simply to say hello. I'm always excited to connect with fellow professionals and explore new possibilities.
-
-Experience the Power of React in Action:
-
-By leveraging the flexibility and robustness of React, I have crafted a personal portfolio website that not only showcases my abilities but also demonstrates my commitment to delivering exceptional user experiences. Explore my website and get in touch to embark on a journey of innovation and collaboration. Let's create something remarkable together!
-#
-## Installation
-
-You can clone the git repository and run next command to use tha web application locally
-
-Install all dependencies
-
-```
-  npm install
-```
-
-Start the web application
-
-```
-  npm run dev
-```
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=125&section=header&fontSize=60&text=Hello%20World!&fontColor=ffffff)
+<div id="header" align="center">
+  <img src="./problem%20solved.png" width="100"/> <br>
+  <div id="badges">
+  <a href="https://www.linkedin.com/in/kristiyantefov/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+     <a href='https://kristiyantefov.github.io/kristiyantefov/'>
+    <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio Badge"/>    
+  </a> 
+     <a href='mailto:kristiyan.tefov@icloud.com'>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="GMAIL Badge"/>    
+  </a> 
+</div>
 
 #
-## Usage
-In order to use the web application you will need to visit the link to the website or clone the repository from GitHub provided in the link below.
+
+## `About Me`
+
+`I` am a skilled and dynamic web developer with a passion for crafting exceptional online experiences. `I` recently immersed in an intensive web development coding certificate program at University of Birmingham, `I` have honed my expertise in web development through hands-on projects and continuous learning.
+
+Proficient in HTML5, CSS, and JavaScript, `I` specialise in building responsive and user-friendly websites. Additionally, `I` have experience working with popular frameworks such as React.js to create interactive and feature-rich web applications.
+
+`I` thrive in collaborative environments and am adept at working within agile development teams. By staying up to date with the latest industry trends and technologies, `I` am able to deliver cutting-edge solutions that meet the needs of modern web applications.
+
+`I` am excited to contribute my skills and dedication to a forward-thinking company. Let's connect and create impactful web experiences together`!`
 
 #
-## How to Contribute
-For suggestions or contributions you can reach me at my email address or you can clone to code and edit it the way it will suite you the best.
+
+## `My Tech Stack`
+
+<div>
+  
+ <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" title="express" alt="express" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="mongoDB" alt="mongoDB" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original-wordmark.svg" title="tailwind" alt="tailwind" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/handlebars/handlebars-original.svg" title="handlebars" alt="handlebars" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg" title="GraphQL" alt="GraphQL" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg" title="Babel" alt="Babel" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="css" alt="css" width="40" height="40"/>&nbsp;
+</div>
+
 #
-## Link
-Link to repository:
 
-https://github.com/kristiyantefov/kristiyantefov
+## `My Stats`
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kristiyantefov&theme=dracula&border_radius=4.8&mode=weekly)](https://git.io/streak-stats)
 
-Link to website:
-
-
-https://kristiyantefov.github.io/kristiyantefov/
-#
-## Authors
-
-- [GitHub - Kristiyan Tefov](https://github.com/kristiyantefov)
-
-
-#
-## License
-
-- This application is covered under: [MIT License](https://choosealicense.com/licenses/mit)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kristiyantefov&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
