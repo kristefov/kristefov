@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="GMAIL Badge"/>    
   </a> 
 </div>
+  
 ## `About Me`
 I am a skilled and dynamic web developer with a passion for crafting exceptional online experiences. I recently immersed in an intensive web development coding certificate program at University of Birmingham, I have honed my expertise in web development through hands-on projects and continuous learning.
 
