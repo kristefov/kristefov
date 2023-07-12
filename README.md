@@ -41,6 +41,7 @@ I am excited to contribute my skills and dedication to a forward-thinking compan
 <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="css" alt="css" width="40" height="40"/>&nbsp;
 </div>
+
 ## `My Stats`
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kristiyantefov&theme=dracula&border_radius=4.8&mode=weekly)](https://git.io/streak-stats)
