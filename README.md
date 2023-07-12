@@ -17,13 +17,13 @@
 
 ## `About Me`
 
-`I` am a skilled and dynamic web developer with a passion for crafting exceptional online experiences. `I` recently immersed in an intensive web development coding certificate program at University of Birmingham, `I` have honed my expertise in web development through hands-on projects and continuous learning.
+I am a skilled and dynamic web developer with a passion for crafting exceptional online experiences. I recently immersed in an intensive web development coding certificate program at University of Birmingham, I have honed my expertise in web development through hands-on projects and continuous learning.
 
-Proficient in HTML5, CSS, and JavaScript, `I` specialise in building responsive and user-friendly websites. Additionally, `I` have experience working with popular frameworks such as React.js to create interactive and feature-rich web applications.
+Proficient in HTML5, CSS, and JavaScript, I specialise in building responsive and user-friendly websites. Additionally, I have experience working with popular frameworks such as React.js to create interactive and feature-rich web applications.
 
-`I` thrive in collaborative environments and am adept at working within agile development teams. By staying up to date with the latest industry trends and technologies, `I` am able to deliver cutting-edge solutions that meet the needs of modern web applications.
+I thrive in collaborative environments and am adept at working within agile development teams. By staying up to date with the latest industry trends and technologies, I am able to deliver cutting-edge solutions that meet the needs of modern web applications.
 
-`I` am excited to contribute my skills and dedication to a forward-thinking company. Let's connect and create impactful web experiences together`!`
+I am excited to contribute my skills and dedication to a forward-thinking company. Let's connect and create impactful web experiences together!
 
 #
 
