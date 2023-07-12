@@ -25,7 +25,7 @@ I thrive in collaborative environments and am adept at working within agile deve
 
 I am excited to contribute my skills and dedication to a forward-thinking company. Let's connect and create impactful web experiences together!
 
-#
+
 
 ## `My Tech Stack`
 
