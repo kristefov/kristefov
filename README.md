@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=160&section=header&fontSize=60&text=Hello%20World!&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=160&section=header&fontSize=50&text=Hello%20World!&fontColor=ffffff)
 <div id="header" align="center">
   <img src="./problem%20solved.png" width="100"/> <br>
   <div id="badges">
