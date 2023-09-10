@@ -90,12 +90,6 @@ export const personalInfo = [
   },
 
   {
-    id: 5,
-    title: "Web Developer: ",
-    description: "Available",
-  },
-
-  {
     id: 6,
     title: "Address: ",
     description: "United Kingdom",
@@ -122,7 +116,7 @@ export const personalInfo = [
   {
     id: 10,
     title: "Languages: ",
-    description: "English, Macedonian, Bulgarian, Croatian,",
+    description: "English, Macedonian, Croatian,",
   },
 ];
 
@@ -158,8 +152,8 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2023 - PRESENT",
-    title: "Web Developer <span> Carrier Change </span>",
-    desc: "Open for Work",
+    title: "2U <span> Teaching Assistant Full Stack Web Dev</span>",
+    desc: "Education Teaching Assistant",
     country: "United Kingdom",
   },
 
@@ -168,8 +162,8 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2020 - 2023",
-    title: "Uber <span> Private Hire</span>",
-    desc: "Driver",
+    title: "Uber <span> Driver </span>",
+    desc: "Private Hire",
     country: "United Kingdom",
   },
 

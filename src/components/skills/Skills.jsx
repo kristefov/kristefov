@@ -1,16 +1,16 @@
 /* eslint-disable no-unused-vars */
-/* The code is importing necessary dependencies and components for the Skils component. */
+/* The code is importing necessary dependencies and components for the Skills component. */
 import React from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { skills } from "../../data";
 
 /**
- * The Skils component renders a list of skills with their corresponding progress bars and titles.
- * @returns The Skils component is returning a list of progress bars with corresponding titles. Each
+ * The Skills component renders a list of skills with their corresponding progress bars and titles.
+ * @returns The Skills component is returning a list of progress bars with corresponding titles. Each
  * progress bar displays a percentage value and has a circular shape.
  */
-const Skils = () => {
+const Skills = () => {
   return (
     <>
       {skills.map(({ title, percentage }, index) => {
@@ -31,4 +31,4 @@ const Skils = () => {
   );
 };
 
-export default Skils;
+export default Skills;
