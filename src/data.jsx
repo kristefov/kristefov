@@ -293,7 +293,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Cooklense",
+        link: "https://github.com/kristefov/Cooklense",
         repo: "Repository",
       },
     ],
@@ -353,7 +353,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/MyLittleWebShop",
+        link: "https://github.com/kristefov/MyLittleWebShop",
         repo: "Repository",
       },
     ],
@@ -363,7 +363,7 @@ export const portfolio = [
     id: 4,
     img: Work3,
     title: "WeatherApp",
-    link: "https://kristiyantefov.github.io/WeatherApp/",
+    link: "https://kristefov.github.io/WeatherApp/",
     details: [
       {
         icon: <FiFileText />,
@@ -383,7 +383,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/WeatherApp",
+        link: "https://github.com/kristefov/WeatherApp",
         repo: "Repository",
       },
     ],
@@ -413,7 +413,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Techblogium",
+        link: "https://github.com/kristefov/Techblogium",
         repo: "Repository",
       },
     ],
@@ -422,7 +422,7 @@ export const portfolio = [
     id: 6,
     img: Work5,
     title: "First Portfolio",
-    link: "https://kristiyantefov.github.io/Kris/",
+    link: "https://kristefov.github.io/Kris/",
     details: [
       {
         icon: <FiFileText />,
@@ -442,7 +442,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Kris",
+        link: "https://github.com/kristefov/Kris",
         repo: "Repository",
       },
     ],
@@ -452,7 +452,7 @@ export const portfolio = [
     id: 7,
     img: Work6,
     title: "Horiseon",
-    link: "https://kristiyantefov.github.io/Horiseon/",
+    link: "https://kristefov.github.io/Horiseon/",
     details: [
       {
         icon: <FiFileText />,
@@ -472,7 +472,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Horiseon",
+        link: "https://github.com/kristefov/Horiseon",
         repo: "Repository",
       },
     ],
@@ -501,7 +501,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Note-Taker",
+        link: "https://github.com/kristefov/Note-Taker",
         repo: "Repository",
       },
     ],
@@ -510,7 +510,7 @@ export const portfolio = [
     id: 9,
     img: Work8,
     title: "Password-Generator",
-    link: "https://github.com/kristiyantefov/Password-Generator",
+    link: "https://github.com/kristefov/Password-Generator",
     details: [
       {
         icon: <FiFileText />,
@@ -530,7 +530,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Password-Generator",
+        link: "https://github.com/kristefov/Password-Generator",
         repo: "Repository",
       },
     ],
@@ -539,7 +539,7 @@ export const portfolio = [
     id: 10,
     img: Work9,
     title: "TechQuiz",
-    link: "https://kristiyantefov.github.io/TechQuiz/",
+    link: "https://kristefov.github.io/TechQuiz/",
     details: [
       {
         icon: <FiFileText />,
@@ -559,7 +559,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/TechQuiz",
+        link: "https://github.com/kristefov/TechQuiz",
         repo: "Repository",
       },
     ],
@@ -568,7 +568,7 @@ export const portfolio = [
     id: 11,
     img: Work10,
     title: "WorkSchedule",
-    link: "https://kristiyantefov.github.io/WorkSchedule/",
+    link: "https://kristefov.github.io/WorkSchedule/",
     details: [
       {
         icon: <FiFileText />,
@@ -588,7 +588,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/WorkSchedule",
+        link: "https://github.com/kristefov/WorkSchedule",
         repo: "Repository",
       },
     ],
@@ -597,7 +597,7 @@ export const portfolio = [
     id: 12,
     img: Work11,
     title: "README-Generator",
-    link: "https://github.com/kristiyantefov/README-Generator",
+    link: "https://github.com/kristefov/README-Generator",
     details: [
       {
         icon: <FiFileText />,
@@ -617,7 +617,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/README-Generator",
+        link: "https://github.com/kristefov/README-Generator",
         repo: "Repository",
       },
     ],
@@ -626,7 +626,7 @@ export const portfolio = [
     id: 13,
     img: Work12,
     title: "Employee-Tracker",
-    link: "https://github.com/kristiyantefov/Employee-Tracker",
+    link: "https://github.com/kristefov/Employee-Tracker",
     details: [
       {
         icon: <FiFileText />,
@@ -646,7 +646,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Link To : ",
-        link: "https://github.com/kristiyantefov/Employee-Tracker",
+        link: "https://github.com/kristefov/Employee-Tracker",
         repo: "Repository",
       },
     ],
