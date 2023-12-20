@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        <Route path="/kristiyantefov/" element={<About />} />
-        <Route path="/kristiyantefov/resume" element={<Resume />} />
-        <Route path="/kristiyantefov/portfolio" element={<Portfolio />} />
-        <Route path="/kristiyantefov/contact" element={<Contact />} />
+        <Route path="/kristefov/" element={<About />} />
+        <Route path="/kristefov/resume" element={<Resume />} />
+        <Route path="/kristefov/portfolio" element={<Portfolio />} />
+        <Route path="/kristefov/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
