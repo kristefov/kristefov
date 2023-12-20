@@ -7,16 +7,16 @@ necessary for creating React components. Lastly, the code is importing a CSS fil
 import React, { useState } from "react";
 import {
   FaEnvelopeOpen,
+  FaGithub,
+  FaLinkedin,
   FaPhoneSquareAlt,
   FaTwitter,
   FaYoutube,
-  FaLinkedin,
-  FaGithub,
 } from "react-icons/fa";
-import { SiLinktree } from "react-icons/si";
 import { FiSend } from "react-icons/fi";
-import "./contact.css";
+import { SiLinktree } from "react-icons/si";
 import { validateEmail } from "../../utils/helpers";
+import "./contact.css";
 
 /* The code defines a functional component called `Contact` in JavaScript React. This component
 represents a contact section on a webpage. */
@@ -144,7 +144,7 @@ const Contact = () => {
           </div>
           <div className="contact__socials">
             <a
-              href="https://github.com/kristiyantefov"
+              href="https://github.com/kristefov"
               className="contact__social-link"
             >
               <FaGithub />
@@ -168,7 +168,7 @@ const Contact = () => {
               <SiLinktree />
             </a>
             <a
-              href="https://www.linkedin.com/in/kristiyantefov/"
+              href="https://www.linkedin.com/in//"
               className="contact__social-link"
             >
               <FaLinkedin />
