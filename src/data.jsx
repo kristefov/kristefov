@@ -39,28 +39,28 @@ export const links = [
     id: 1,
     name: "About",
     icon: <FaHome className="nav__icon" />,
-    path: "/kristiyantefov/",
+    path: "/kristefov/",
   },
 
   {
     id: 2,
     name: "Resume",
     icon: <FaUser className="nav__icon" />,
-    path: "/kristiyantefov/resume",
+    path: "/kristefov/resume",
   },
 
   {
     id: 3,
     name: "Portfolio",
     icon: <FaFolderOpen className="nav__icon" />,
-    path: "/kristiyantefov/portfolio",
+    path: "/kristefov/portfolio",
   },
 
   {
     id: 4,
     name: "Contact",
     icon: <FaEnvelopeOpen className="nav__icon" />,
-    path: "/kristiyantefov/contact",
+    path: "/kristefov/contact",
   },
 ];
 
