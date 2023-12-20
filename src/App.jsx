@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
@@ -11,7 +11,7 @@ import Portfolio from "./pages/portfolio/Portfolio";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Themes />
       <Routes>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/kristefov/portfolio" element={<Portfolio />} />
         <Route path="/kristefov/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
