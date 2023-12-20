@@ -141,7 +141,7 @@ export const stats = [
 
   {
     id: 4,
-    no: "4+",
+    no: "8+",
     title: " Certificates <br /> Achieved",
   },
 ];
@@ -152,13 +152,22 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2023 - PRESENT",
+    title: "Live Buzz <span> Full Stack Web Dev</span>",
+    desc: "Developing Web Applications",
+    country: "United Kingdom",
+  },
+  {
+    id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "2023 - PRESENT",
     title: "2U <span> Teaching Assistant Full Stack Web Dev</span>",
     desc: "Education Teaching Assistant",
     country: "United Kingdom",
   },
 
   {
-    id: 2,
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2020 - 2023",
@@ -168,7 +177,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2016 - 2020",
@@ -178,7 +187,7 @@ export const resume = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2011 - 2016",
@@ -188,7 +197,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 6,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023-2024",
@@ -198,7 +207,7 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 7,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2022-2023",
@@ -208,7 +217,7 @@ export const resume = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2005-2009",
@@ -234,7 +243,7 @@ export const skills = [
   {
     id: 3,
     title: "CSS",
-    percentage: "60",
+    percentage: "75",
   },
 
   {
@@ -265,6 +274,16 @@ export const skills = [
     id: 8,
     title: "Express",
     percentage: "75",
+  },
+  {
+    id: 9,
+    title: "PHP",
+    percentage: "50",
+  },
+  {
+    id: 10,
+    title: "Laravel",
+    percentage: "55",
   },
 ];
 
