@@ -44,7 +44,7 @@ I am excited to contribute my skills and dedication to a forward-thinking compan
 
 #
 
-## `My Stats`.
+## `My Stats`
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kristefov&theme=dracula&border_radius=4.8&mode=weekly)](https://git.io/streak-stats)
 
