@@ -2,10 +2,10 @@
 <div id="header" align="center">
   <img src="./problem%20solved.png" width="100"/> <br>
   <div id="badges">
-  <a href="https://www.linkedin.com/in/kristiyantefov/">
+  <a href="https://www.linkedin.com/in/kristefov/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-     <a href='https://kristiyantefov.github.io/kristiyantefov/'>
+     <a href='https://kristefov.github.io/kristefov/'>
     <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio Badge"/>    
   </a> 
      <a href='mailto:kristiyan.tefov@icloud.com'>
@@ -46,6 +46,6 @@ I am excited to contribute my skills and dedication to a forward-thinking compan
 
 ## `My Stats`
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kristiyantefov&theme=dracula&border_radius=4.8&mode=weekly)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kristefov&theme=dracula&border_radius=4.8&mode=weekly)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kristiyantefov&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kristefov&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
