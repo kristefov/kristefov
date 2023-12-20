@@ -21,7 +21,7 @@ Proficient in HTML5, CSS, and JavaScript, I specialise in building responsive an
 I thrive in collaborative environments and am adept at working within agile development teams. By staying up to date with the latest industry trends and technologies, I am able to deliver cutting-edge solutions that meet the needs of modern web applications.
 
 I am excited to contribute my skills and dedication to a forward-thinking company. Let's connect and create impactful web experiences together!
-## `My Tech Stack`.
+## `My Tech Stack`
 
 <div>
   
