@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        <Route path="/kristefov/" element={<About />} />
-        <Route path="/kristefov/resume" element={<Resume />} />
-        <Route path="/kristefov/portfolio" element={<Portfolio />} />
-        <Route path="/kristefov/contact" element={<Contact />} />
+        <Route path="/" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </HashRouter>
   );
